@@ -1,10 +1,12 @@
 <template>
-
+    <div class="seller">
+      这里是商家页面内容
+    </div>
 </template>
 
 <script>
     export default {
-        name: "Header"
+        name: "Seller"
     }
 </script>
 
