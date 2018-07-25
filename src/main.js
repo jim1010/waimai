@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
+import Axios from 'axios'
 
 // 导入组件
 import Goods from './components/Goods/Goods'
@@ -13,6 +14,9 @@ Vue.config.productionTip = false
 
 // 安装vue-router插件
 Vue.use(VueRouter);
+
+// 如果在其他组件中使用axios命令，需要改写为vue原型属性
+Vue.prototype.$axios = Axios;
 
 // 定义路由
 const routes = [
