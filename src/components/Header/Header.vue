@@ -37,6 +37,8 @@
 </script>
 
 <style scoped>
+  /* 导入字体*/
+  @import url('../../common/styles/icon.css');
   /* 导入css文件*/
   @import url('Header.css');
 </style>
