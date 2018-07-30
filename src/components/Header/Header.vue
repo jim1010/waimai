@@ -11,7 +11,11 @@
       </form>
       <div class="more-wrapper">
         <a href="" class="spelling-bt">拼单</a>
-        <div class="more-bt"></div>
+        <div class="more-bt">
+          <i class="s-radius"></i>
+          <i class="s-radius"></i>
+          <i class="s-radius"></i>
+        </div>
       </div>
     </div>
 
