@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import MyHeader from './components/Header/Header';
-import MyNav from './components/Nav/Nav';
+import MyHeader from 'components/Header/Header';
+import MyNav from 'components/Nav/Nav';
 
 export default {
   name: 'App',
